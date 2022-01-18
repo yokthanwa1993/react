@@ -1,10 +1,25 @@
+function getName(id) {
+
+
+
+	//var name = $('#' + id).val();
+
+	name = document.getElementById(id).value;
+
+	document.getElementById('t2').value = name;
+	//$('#t2').val(name);
+
+	//$('#' + id).hide();
+
+}
+
+
+
 
 $( document ).ready(function() {
 
-	var person = 'Boss';
-let person1 = 'Boss2';
-const person2 = 'Boss3';
 
-    console.log(person + person1 + person2);
+//document.getElementById('t1').value = '55';
+	
 });
 
