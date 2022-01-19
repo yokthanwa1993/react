@@ -1,25 +1,13 @@
 function getName(id) {
+  var Number1 = document.getElementById(id).value;
+  var Number2 = document.getElementById("t2").value;
 
+  var n1 = parseInt(Number1);
+  var n2 = parseInt(Number2);
 
-
-	//var name = $('#' + id).val();
-
-	name = document.getElementById(id).value;
-
-	document.getElementById('t2').value = name;
-	//$('#t2').val(name);
-
-	//$('#' + id).hide();
-
+  document.getElementById("t3").value = n1 + n2;
 }
 
+console.log(n1 + n2);
 
-
-
-$( document ).ready(function() {
-
-
-//document.getElementById('t1').value = '55';
-	
-});
-
+$(document).ready(function () {});
